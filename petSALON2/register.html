@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/petSalon.css">
+    <script src=""></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>The Fashion Pet</h1>
+    </header>
+
+    <Nav class="menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="register.html">Register</a>
+    </Nav>
+    <main id="register-main" class="container">
+        <img src="img/4pets.png" alt="4pets" class="img4">
+        <h2>How to register</h2>
+        
+        <form action="">
+            <p class="form-group" >
+                <label for="name">Name of pet</label>
+            <input type="name" class="form-control" type="text" id="petName">
+            </p>
+            <p class="form-group" >
+                <label for="age">Age of pet</label>
+                <input type="number" class="form-control" type="type" id="petAge">
+            </p>
+            <p class="form-group">
+                <label for="type">Type of pet</label>
+                <input type="text" class="form-control" id="petType">
+            </p>
+            <p class="form-group">
+                <label for="breed">What is your pets breed?</label>
+                <input type="text" class="form-control" id="petBreed">
+            </p>
+            <p class="form-group">
+                <label for="gender">Pets gender</label>
+                <select name="gender" class="form-control" id="gender">
+                    <option value="" disabled selected>Pet Gender</option>
+                    <option value="male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </p>
+            <p class="form-group">
+                <label for="services">Service Required</label>
+                <select name="services"class="form-control"  id="petService">
+                    <option value="" disabled selected>----Select a Service</option>
+                    <option value="shower">Shower  $45.00</option>
+                    <option value="haircut">Haircut  $20.00</option>
+                    <option value="nailTrimming">Nail Trimming  $10.00</option>
+                    <option value="fullService">Full Service  $75.00</option>
+                </select>
+            </p>
+            <p class="form-group">
+                <label for="ownersName">Owners Name</label>
+                <input type="text" class="form-control" id="ownersName">
+            </p>
+            <p class="form-group">
+                <label for="contact">Contact Phone</label>
+                <input type="text" class="form-control" id="contactPhone">
+            </p>
+            <p class="form-group">
+                <label for="email">Email</label>
+                <input type="text" class="form-control" id="email">
+            </p>
+            <input type="button" class="btn btn-success" value="Register" onclick="register">
+        </form>
+        <div id="petSection">
+
+        </div>
+
+        
+    </main>
+    <footer>
+        <p>The Fashion Pet </p>
+        <p>3757 park view st. san diego ca, 90888</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/dirctory.js"></script>
+    
+</body>
+</html>
